@@ -1,0 +1,5 @@
+lemonbab Feb 19 01:00 still
+reboot 5.15.0-60-generi Sun Feb 19
+reboot 5.15.0-60-generi Sun Feb 19
+    
+wtmp Feb 19 00:56:23 2023
