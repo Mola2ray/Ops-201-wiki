@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Script: Ops 201 Class 02 Ops Challenge Solution 
+# Author: 
+# Date of latest revision:
+# Purpose:
+
+# Define function to print login history
+print_login_history() {
+    last | awk '{print $1,$4,$5,$6,$7}'
+}
+
+# Define variable for output file
+output_file="login_history.txt"
+
+# Print login history to console
+echo "Login history:"
+print_login_history
+
+# Save login history to file
+print_login_history > "$output_file"
+echo "Login history saved to $output_file"
